@@ -32,11 +32,26 @@ function clickHandler(input) {
 
 
     <div className="App">
-      <h1>Emoji Dictionary</h1>
-      <input  type="text" onChange={changeHandler} placeholder={"put your emoji here"} style={{"width":"30vh","height":"7vh"}} />
-      <div style={{"border": "1px solid black","backgroundColor":"white","height":"10vh","width":"40vh","marginTop":"3%","marginLeft":"40%","marginBottom":"5%" }}>
-          <h2>{`Meaning: ${name}`}</h2>
-      </div>
+      <h1 style={{'marginTop':'3rem'}}>Emoji Dictionary</h1>
+      <input  type="text" onChange={changeHandler} placeholder={"put your emoji here"} 
+      style={{
+              'marginTop':'3rem',
+              'width':'60%',
+              'height':'50px'
+       }} />
+      
+          <h2 style={{
+            
+            'backgroundColor':'white',
+            'border':'1px solid black',
+            'width':"40%",
+            'maxHeight':'30%',
+            'margin':'auto',
+            'marginTop':'3rem',
+            'marginBottom':'3rem',
+        }}>
+          {`Meaning: ${name}`}
+          </h2>
 
 
       {
