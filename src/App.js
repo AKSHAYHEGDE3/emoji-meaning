@@ -17,6 +17,7 @@ const[name,setName]=useState("emoji name")
 function changeHandler(e){
   const input=e.target.value;
   setEmoji(input)
+  console.log(emoji)
   if(input in emojiDictionary){
     setName(emojiDictionary[input])
   } else {
@@ -50,7 +51,7 @@ function clickHandler(input) {
             'marginTop':'3rem',
             'marginBottom':'3rem',
         }}>
-          {`Meaning: ${name}`}
+          {` Meaning: ${name}`}
           </h2>
 
 
