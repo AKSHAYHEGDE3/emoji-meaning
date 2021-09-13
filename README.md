@@ -1,3 +1,3 @@
 # emoji-meaning
 want to know meaning of certain emojis! use this
-https://awesome-allen-c0bec3.netlify.app
+https://emoji-meaning-3.netlify.app
